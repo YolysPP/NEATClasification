@@ -58,7 +58,7 @@ Each image undergoes preprocessing followed by region-based feature extraction:
 
 ## Outputs
 
-- `eatures_400x_custom.csv`: Extracted full feature set.
+- `features_400x_custom.csv`: Extracted full feature set.
 - `features_train_balanced.csv` and `features_test_balanced.csv`: Balanced training and testing sets.
 - `confusion_matrix_neat_pca.pdf`: Confusion matrix.
 - `roc_curve_neat_pca.pdf`: ROC curve.
