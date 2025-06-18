@@ -83,25 +83,25 @@ pip install neat-python
 1. Download and extract the BreakHis dataset under this path:
 
 
-   BreakHis_v1/histology_slides/breast/
+   `BreakHis_v1/histology_slides/breast/`
 
 
 2. Run the feature extraction and data preparation script:
 
 
-   python balanced_features_extraction.py
+   `python balanced_features_extraction.py`
 
 
 3. Run the NEAT training and evaluation script:
 
 
-   python Neat_With_PCA.py
+   `python Neat_With_PCA.py`
 
 
 4. (Optional) Analyze class distribution in the generated datasets:
 
  
-   python distribution.py
+   `python distribution.py`
 
 
 ## Authors
