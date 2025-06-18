@@ -1,4 +1,3 @@
-# NEATClasification
 
 # NEAT with PCA for Breast Cancer Histopathology Classification
 
