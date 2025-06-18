@@ -1,6 +1,5 @@
 # NEATClasification
 
-````markdown
 # NEAT with PCA for Breast Cancer Histopathology Classification
 
 This repository contains a complete pipeline for classifying breast tumor histopathology images using **NeuroEvolution of Augmenting Topologies (NEAT)**, combined with **Principal Component Analysis (PCA)** for dimensionality reduction. The project uses the publicly available [BreakHis dataset](https://www.kaggle.com/datasets/ambarish/breakhis?resource=download).
@@ -59,7 +58,7 @@ Each image undergoes preprocessing followed by region-based feature extraction:
 
 ## Outputs
 
-- `features_400x_custom.csv`: Extracted full feature set.
+- `eatures_400x_custom.csv`: Extracted full feature set.
 - `features_train_balanced.csv` and `features_test_balanced.csv`: Balanced training and testing sets.
 - `confusion_matrix_neat_pca.pdf`: Confusion matrix.
 - `roc_curve_neat_pca.pdf`: ROC curve.
@@ -70,7 +69,6 @@ Each image undergoes preprocessing followed by region-based feature extraction:
 
 Install the following Python libraries before running the code:
 
-```bash
 pip install pandas
 pip install numpy
 pip install scikit-learn
@@ -79,33 +77,33 @@ pip install seaborn
 pip install opencv-python
 pip install scikit-image
 pip install neat-python
-````
+
 
 ## How to Run
 
 1. Download and extract the BreakHis dataset under this path:
 
-   ```
+
    BreakHis_v1/histology_slides/breast/
-   ```
+
 
 2. Run the feature extraction and data preparation script:
 
-   ```bash
+
    python balanced_features_extraction.py
-   ```
+
 
 3. Run the NEAT training and evaluation script:
 
-   ```bash
+
    python Neat_With_PCA.py
-   ```
+
 
 4. (Optional) Analyze class distribution in the generated datasets:
 
-   ```bash
+ 
    python distribution.py
-   ```
+
 
 ## Authors
 
