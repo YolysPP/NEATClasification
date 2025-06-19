@@ -92,13 +92,15 @@ pip install neat-python
    `python balanced_features_extraction.py`
 
 
-3. Run the NEAT training and evaluation script:
+3. Make sure the `neat_config.txt` configuration file is placed in the same directory as the Python scripts before running the training.
+
+4. Run the NEAT training and evaluation script:
 
 
    `python Neat_With_PCA.py`
 
 
-4. (Optional) Analyze class distribution in the generated datasets:
+5. (Optional) Analyze class distribution in the generated datasets:
 
  
    `python distribution.py`
