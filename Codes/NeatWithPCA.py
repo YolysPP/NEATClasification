@@ -65,7 +65,7 @@ def eval_genomes(genomes, config):
         genome.fitness = (r0 + r1)/2 - 0.3 * abs(r0 - r1)
 
 # === 4. Load NEAT configuration ===
-config_path = "neat_config_bh_2.txt"
+config_path = "neat_config.txt"
 config = neat.Config(
     neat.DefaultGenome, neat.DefaultReproduction,
     neat.DefaultSpeciesSet, neat.DefaultStagnation,
